@@ -3,6 +3,8 @@ From: Piruz Alemi & Zhongping Yang
 Subject: ETL Project (Extract, Transform, Load)
 Date: Jan 29th, 2020
 
+Please refer to Piruz_Yang PDF Report.
+
 ## Team Effort:
 
 This project was conducted by the joint efforts of  Piruz Alemi & Zhongping Yang  
@@ -39,6 +41,8 @@ o	We automated the latter task through a task manager
  
 •	We loaded our Joined data set into two production databases as both (relational AND non-relational).
 •	The final tables (SQL) and collections (MongoDB) may be used in the production database. For MongoDB as in:
+
+      For visual data: Please refer to Piruz_Yang PDF Report under this same repository
  
 
 ## We finalized by:
