@@ -3,13 +3,13 @@ From: Piruz Alemi & Zhongping Yang
 Subject: ETL Project (Extract, Transform, Load)
 Date: Jan 29th, 2020
 
-# Team Effort:
+## Team Effort:
 
 This project was conducted by the joint efforts of  Piruz Alemi & Zhongping Yang  
 Project Proposal
 Before we started writing any code, we reached the conclusion to research the Derivatives Market Option pricing 
 
-# Finding Data:
+## Finding Data:
 
 The novelty of our project was that we used not only CSV data sources, but we were also able to Scrape Option Prices of SPY directly from the screens. We used the following sites to use as sources of data for our research including quantopian with its embedded Jupyter Notebook:
 
@@ -22,7 +22,7 @@ The novelty of our project was that we used not only CSV data sources, but we we
 For SPY we accessed the CSV Stock Prices + the SPY Options on the Screen as in:
  
 We scraped the data direct from the web screen! 
-# Data Cleanup & Analysis:
+## Data Cleanup & Analysis:
 
 Once we have identified your datasets, we performed ETL on the data:
 •	The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc) were:
@@ -41,7 +41,7 @@ o	We automated the latter task through a task manager
 •	The final tables (SQL) and collections (MongoDB) may be used in the production database. For MongoDB as in:
  
 
-# We finalized by:
+## We finalized by:
 •	Loading: the final database, tables/collections in both SQL & MongoDB. This was chosen, as Historical Option Prices is not available. We also needed the flexibility to add other types of data.
 •	Two sets of data bases were used, to compare the “efficiency” of each database + coding. The Flexibility of MongoDB was preferential to coding vs. pre-defining each table & variable in SQL.  However in the final analysis we understood the power of directly loading a Data frame into SQL – with a single command. So was also the power of a single line command for scraping Option prices. Clearly in terms of coding we prefer Pandas SQL interfacing.
 •	MongoDB offered us additional flexibility as we were dealing with a variable “Collection”, including future correspondences and additions on Derivatives markets that could potentially be scraped from other Web pages. Furthermore, parts of our data was changing every 3 seconds, and parts on a daily basis and parts never changing. 
@@ -49,4 +49,4 @@ o	We automated the latter task through a task manager
 Please see our report on Github or follow our link on Bootcampspot!
 
 Respectfully,
-# Team: Piruz Alemi & Zhongping Yang
+### Team: Piruz Alemi & Zhongping Yang
